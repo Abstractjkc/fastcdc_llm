@@ -7,9 +7,14 @@
 因此只需要根据词表大小生成一个新的 gear table 即可。
 
 ## TODO List
-- [] 根据词表大小生成 gear table
+- [x] 根据词表大小生成 gear table
 - [] 实现 fastcdc 算法
 
+## Environment Setup
+
+```bash
+pip install -r requirements.txt
+```
 ## Reference Materials
 
 - [FastCDC implementation in Rust](https://github.com/nlfiedler/fastcdc-rs)
